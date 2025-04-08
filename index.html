@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1YVJESR6W"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,10 +18,52 @@
     <script src="lucide.min.js"></script>
     <meta name="google-adsense-account" content="ca-pub-3325448390634704">
     <link rel="stylesheet" href="styles.css">
-    </head>
+    <style>
+        .resource-card {
+            position: relative;
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resource-link {
+            text-decoration: none;
+            color: inherit;
+            flex-grow: 1;
+        }
+
+        .learn-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: #f0f0f0;
+            color: #333;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .learn-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .learn-btn i {
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+</head>
 <body>
     <header>
-        <a href="index-en.html" class="lang-btn">🇺🇸 English</a>
+        <a href="index-en.html">🇺🇸 English</a>
   <div class="header-content" style="flex-direction: column; text-align: center; gap: 0.5rem;">
     <div class="logo" style="justify-content: center;">
       <i data-lucide="globe-2"></i>
