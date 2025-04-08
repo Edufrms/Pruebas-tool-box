@@ -44,23 +44,7 @@ header {
     font-size: 1.5rem;
     color: var(--gray-900);
 }
-.lang-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: #f3f4f6;
-    color: #1f2937;
-    padding: 0.4rem 0.9rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
-    transition: background-color 0.2s ease;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
-  .lang-btn:hover {
-    background-color: #e5e7eb;
-  }
+
 main {
     max-width: 1200px;
     margin: 2rem auto;
